@@ -1,0 +1,97 @@
+
+body {
+    background-color: black;
+
+}
+main {
+    padding: 5px;
+}
+.window {
+    background-color: gray;
+    width: 400px;
+    height: 500px;
+    margin: 10vh auto;
+    border-radius: 110px;
+}
+.topSearch {
+    height: 20%;
+    background-color: rgb(25, 22, 197);
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    text-align: center;
+    position:relative;
+  }
+.searchBox {
+    font-family: 'Helvetica';
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    
+}
+#searchText {
+    color: black;
+    font-family: 'Helvetica';
+    height:30px;
+    border-radius: 15px;
+    border-style:none;
+    outline:none;
+    padding-right:1px;
+    padding-left:1px;
+    text-align:center;
+}
+#cityName {
+    font-size: 30px;
+    color:  rgb(25, 22, 197);
+    font-family: 'Helvetica';
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#weatherIcon {
+    text-align: center;
+}
+#mainWeather {
+    font-size: 25px;
+    font-family: 'Helvetica';
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+#temp {
+    font-size: 25px;
+    font-family: 'Helvetica';
+    text-align: center;
+    font-weight: bold;
+    
+}
+#minTemp {
+    font-size: 25px;
+    font-family: 'Helvetica';
+    text-align: center;
+    font-weight: bold;
+}
+#maxTemp {
+    font-size: 25px;
+    font-family: 'Helvetica';
+    text-align: center;
+    font-weight: bold;
+}
+#tempTitle {
+    font-family: 'Helvetica';
+    text-align: center;
+}
+#currentTempTitle {
+    font-family: 'Helvetica';
+    text-align: center;
+}
+#minTempTitle {
+    font-family: 'Helvetica';
+    text-align: center;
+}
+#maxTempTitle {
+    font-family: 'Helvetica';
+    text-align: center;
+}
+

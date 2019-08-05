@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" type="text/css" href="./weatherStyle.css">
+    
+<head>
+    <title>Weather APP</title>
+
+</head>
+    <div class = "window">
+        
+        <body>
+            <header class = "topSearch">
+                <div class = "searchBox">
+                    <input type="number" placeholder="Enter Zip Code" maxlength="5" id="searchText">
+                    <!-- going to replace with an image rather than button -->
+                    <button type ="submit" id ="searchButton">Search</button>
+            
+                </div>
+            </header>
+            <main>
+                <div class = "city">
+                    <div id = "cityName"></div>
+                </div>
+                <div id = "weatherIcon"></div>
+                <div class = "basicWeather">
+                    <div id = "mainWeather"></div>
+                </div>
+                <div class = "temperature">
+                    <div id = "tempTitle"></div>
+                    <div id = "currentTempTitle"></div>
+                    <div id = "temp"></div>
+                    <div id = "minTempTitle"></div>
+                    <div id = "minTemp"></div>
+                    <div id = "maxTempTitle"></div>
+                    <div id = "maxTemp"></div>
+                </div>
+            </main>
+
+           
+            <script src="./weatherApp.js"></script>
+        </body>
+    </div>
+    
+<script src="./weatherApp.js"></script>
+</html>
