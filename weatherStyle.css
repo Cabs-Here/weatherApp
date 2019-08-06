@@ -1,39 +1,51 @@
 
 body {
     background-color: black;
+    background-size: cover;
 
 }
 main {
     padding: 5px;
 }
 .window {
-    background-color: gray;
+    background-color: white;
     width: 400px;
     height: 500px;
     margin: 10vh auto;
-    border-radius: 110px;
+    border-radius: 10px;
+    font-family: 'Helvetica';
 }
 .topSearch {
     height: 20%;
-    background-color: rgb(25, 22, 197);
-    border-top-left-radius: 120px;
-    border-top-right-radius: 120px;
+    background-color: rgb(22, 49, 206);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     text-align: center;
     position:relative;
   }
 .searchBox {
-    font-family: 'Helvetica';
+    padding: 18px;
     position: absolute;
     left: 50%;
     top:50%;
-    transform:translate(-50%,-50%);
-    
+    transform:translate(-50%,-50%);    
+}
+.temperature {
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+}
+.otherInfo {
+    text-align: right;
+    margin-right: 10px;
+}
+#searchButton {
+    margin: 10px;
 }
 #searchText {
     color: black;
-    font-family: 'Helvetica';
     height:30px;
-    border-radius: 15px;
+    border-radius: 5px;
     border-style:none;
     outline:none;
     padding-right:1px;
@@ -43,7 +55,6 @@ main {
 #cityName {
     font-size: 30px;
     color:  rgb(25, 22, 197);
-    font-family: 'Helvetica';
     font-weight: 900;
     text-align: center;
     padding-top: 20px;
@@ -54,44 +65,33 @@ main {
 }
 #mainWeather {
     font-size: 25px;
-    font-family: 'Helvetica';
     text-align: center;
     padding-bottom: 20px;
     
 }
 #temp {
     font-size: 25px;
-    font-family: 'Helvetica';
-    text-align: center;
     font-weight: bold;
     
 }
 #minTemp {
     font-size: 25px;
-    font-family: 'Helvetica';
-    text-align: center;
     font-weight: bold;
 }
 #maxTemp {
     font-size: 25px;
-    font-family: 'Helvetica';
-    text-align: center;
     font-weight: bold;
 }
-#tempTitle {
-    font-family: 'Helvetica';
-    text-align: center;
+#humidity {
+    font-size: 25px;
+    font-weight: bold;
 }
-#currentTempTitle {
-    font-family: 'Helvetica';
-    text-align: center;
+#sunrise {
+    font-size: 25px;
+    font-weight: bold;
 }
-#minTempTitle {
-    font-family: 'Helvetica';
-    text-align: center;
-}
-#maxTempTitle {
-    font-family: 'Helvetica';
-    text-align: center;
+#sunset {
+    font-size: 25px;
+    font-weight: bold;
 }
 
